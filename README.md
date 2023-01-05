@@ -10,3 +10,6 @@ The old dataset was updated and a new column of goal difference was added. Using
 
 
 - Note :Every time these datasets were used to train models, the conceded goals were removed.
+
+## RealTime2.ipynb
+Greaty reduced number of variables in dataset by only keeping the "possession team1","possession team2","possession in contest","goal preventions team1","goal preventions team2","forced turnovers team1","forced turnovers team2" and "goalDiff" columns. The root mean squared error was **1.5144935778544149** with training data and **1.5144935778544149** with test data.
